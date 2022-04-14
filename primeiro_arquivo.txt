@@ -1,0 +1,40 @@
+Identificar seu nome de usuário e e-mail:
+git config --global user.name "fulano"
+git config --global user.email fulano@desenvolvedortop.com
+
+Testar configurações:
+git config --list
+
+Clonando um repositótio existente:
+git clone url
+
+Inicializando um repositório:
+git init
+
+Monitorar arquivos e fazer um commit:
+git add .
+git commit -m "mensagem commit inicial"
+
+Visualizar o status dos seus arquivos:
+git status
+
+Observar mudanças:
+git diff
+
+Verificar o histórico dos commits:
+git log
+
+Para ignorar arquivos:
+criar um arquivo com .gitignore
+
+Criando tags (v1.0, v1.1, etc.):
+git tag -a v1.0
+
+Enviar os arquivos modificados ao remoto:
+git push origin branch
+
+Receber os arquivos modificados do remoto:
+git pull origin pull
+
+Deploy é a tarefa de disponibilizar uma aplicação web ou parte de uma aplicação web para uso, ou seja, é quando você realiza a exportação dos arquivos com códigos para o servidor com o intuito de deixá-los disponíveis para o cliente utilizar.
+Para automotizar o processo de deploy, pode-se usar Netlify.
